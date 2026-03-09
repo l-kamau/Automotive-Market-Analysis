@@ -16,7 +16,7 @@ Uncovering the Drivers of Price, Performance, and Efficiency
 
 **1. Mechanical Redundancy (r = 0.99)**
 * Analysis revealed a nearly perfect positive correlation between Horsepower and the Power Performance Factor.
-* Insight: These two variables provide identical information. In a machine learning context, one of these should be dropped to prevent "overfitting" or redundancy.
+* Insight: These two variables provide identical information. In a machine learning context, one of these should be dropped to prevent overfitting or redundancy.
 
 **2. The Weight vs. Efficiency Trade-off (r = -0.82)**
 * There is a strong negative correlation between Curb Weight and Fuel Efficiency.
@@ -24,11 +24,11 @@ Uncovering the Drivers of Price, Performance, and Efficiency
 
 **3. Price & Fuel Economy (r = -0.49)**
 * A moderate negative correlation exists between Price and Fuel Efficiency.
-* Insight: Luxury and performance usually come at the cost of efficiency. However, the moderate score suggests a growing segment of "High-Efficiency Premium" vehicles (likely Hybrids/EVs) that break this traditional trend.
+* Insight: Luxury and performance usually come at the cost of efficiency. However, the moderate score suggests a growing segment of **High-Efficiency Premium** vehicles (likely Hybrids/EVs) that break this traditional trend.
 
 **4. Brand Value Retention**
 * By engineering a custom depreciation_ratio, I identified which manufacturers hold their value best.
-* Insight: Plymouth leads the pack in value retention, making it a "safer" financial investment for consumers.
+* Insight: Plymouth leads the pack in value retention, making it a safer financial investment for consumers.
 
 ##  🧹 Workflow
 * **Cleaning**: I standardized column names, handled missing values via manufacturer-specific medians, and removed outliers.

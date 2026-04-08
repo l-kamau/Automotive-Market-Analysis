@@ -1,18 +1,18 @@
-# 🏎️ Automotive Market Analysis & EDA
+# Automotive Market Analysis & EDA
 
 Uncovering the Drivers of Price, Performance, and Efficiency
 
-##  📌 Project Overview
+##   Project Overview
 
 * This project is a deep dive into a dataset of vehicle specifications and sales. Using Python, I performed Exploratory Data Analysis (EDA) to understand how mechanical features like Horsepower and Weight influence a car's market price and fuel economy.
 
-##  🛠️ Tech Stack
+##   Tech Stack
 
 * Language: Python 3.x
 * Libraries: Pandas (Data Wrangling), NumPy (Math), Matplotlib & Seaborn (Data Visualization)
 * Environment: Jupyter Notebook
 
-##  📊 Key Discoveries & Insights
+##  Key Discoveries & Insights
 
 **1. Mechanical Redundancy (r = 0.99)**
 * Analysis revealed a nearly perfect positive correlation between Horsepower and the Power Performance Factor.
@@ -30,12 +30,12 @@ Uncovering the Drivers of Price, Performance, and Efficiency
 * By engineering a custom depreciation_ratio, I identified which manufacturers hold their value best.
 * Insight: Plymouth leads the pack in value retention, making it a safer financial investment for consumers.
 
-##  🧹 Workflow
+##   Workflow
 * **Cleaning**: I standardized column names, handled missing values via manufacturer-specific medians, and removed outliers.
 * **Feature Engineering**: I created price_per_hp, is_high_perf?(Categorical Flag), and depreciation_ratio to quantify long-term value.
 * **Exploration**: Used Histograms for distribution analysis and Scatter Plots for relationship testing.
 * **Correlation**: Developed a comprehensive Heatmap to validate all numerical relationships.
 ![Heatmap](correlation_heatmap.png)
 
-##  🚀 Next Steps
+##   Next Steps
 * With the EDA complete, the next phase of this project involves building a Linear Regression model to predict a vehicle's Resale Value based on its mechanical specifications.
